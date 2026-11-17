@@ -25,7 +25,6 @@ age range, or temperament.
 R4. Care and medical events
     - R4.2 Schedule and perform a medical action such as an intake exam, treatment, or vaccination.
 
-
 **Design Pattern Choice (≥2 design patterns)**
 
 1. **Chain of Responsibility**
@@ -41,3 +40,6 @@ attributes people look for in a new fur-friend. Creating a giant if/else or swit
 2. Veterinarian comes into  play (R4.2,R2.1) (Decorator)
 3. Adoption Agency (R2.1) runs the adopter and animal through the match chain (Chain of Responsibility)
 4. Print out the adoption event + summary noting of the changes and things that happen in a day.
+
+Below decorator pattern is on the bottom left and the CoR pattern is the bottom right.
+![PetShelter.png](PetShelter.png)
