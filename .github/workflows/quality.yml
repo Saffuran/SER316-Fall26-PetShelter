@@ -6,14 +6,14 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - StaticAnalysis
+      - DelA
       - main
-      - Dev
+      - DelB
   pull_request:
     branches:
-      - StaticAnalysis
+      - DelA
       - main
-      - Dev
+      - DelB
 
 # The workflow only needs to read repository contents.
 permissions:
