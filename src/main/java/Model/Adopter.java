@@ -23,11 +23,11 @@ public class Adopter {
 		return preferredSpecies;
 	}
 
-	public getMinAge(){
+	public int getMinAge(){
 		return minAge;
 	}
 
-	public getMaxAge() {
+	public int getMaxAge() {
 		return maxAge;
 	}
 }

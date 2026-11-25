@@ -1,7 +1,11 @@
 public class Veterinarian extends Staff {
 
-	public void treat(Animal animal, MedicalProcedure procedure) {
+	public Veterinarian(String name) {
+		super(name);
+	}
 
+	public void treat(Animal animal, MedicalProcedure procedure) {
+		procedure.perform(animal);
 	}
 
 }

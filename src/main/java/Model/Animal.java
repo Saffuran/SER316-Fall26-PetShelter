@@ -34,10 +34,10 @@ public class Animal {
 		return status;
 	}
 
-	public setHealth(String health){
+	public String setHealth(String health){
 		this.health = health;
 	}
-	public getStatus(){
+	public String getStatus(){
 		return status;
 	}
 	public List<String> getNotes() {

@@ -1,4 +1,7 @@
 import java.util.Random;
+import controller.SimulationController;
+import model.Shelter;
+import view.ConsoleView;
 
 /**
  * Entry point for the pet shelter simulation.
@@ -7,8 +10,9 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Pet Shelter Simulation");
-
+        SimulationController controller =
+                new SimulationController(new Shelter(), new ConsoleView(), 316L);
+        controller.run(7);
     }
 }
 

@@ -1,4 +1,4 @@
-public class AdoptionPeople extends Staff {
+public class AdoptionCoordinator extends Staff {
 
 	private MatchHandler matchChain;
 
