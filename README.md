@@ -38,7 +38,7 @@ attributes people look for in a new fur-friend. Creating a giant if/else or swit
 **The Vision!**
 1. Intake: A new animal arrives (R1.2)
 2. Veterinarian comes into  play (R4.2,R2.1) (Decorator)
-3. Adoption Agency (R2.1) runs the adopter and animal through the match chain (Chain of Responsibility)
+3. Adoption Agency (R2.1) runs the adopter and animal through the match chain(R3.1,3.2) (Chain of Responsibility)
 4. Print out the adoption event + summary noting of the changes and things that happen in a day.
 
 Below decorator pattern is on the bottom left and the CoR pattern is the bottom right.
