@@ -19,19 +19,29 @@ public class Animal {
 	}
 
 	public String getSpecies() {
-		return null;
+		return species;
 	}
 
 	public int getAge() {
-		return 0;
+		return age;
 	}
 
 	public String getHealth() {
-		return null;
+		return health;
 	}
 
 	public String getStatus() {
-		return null;
+		return status;
+	}
+
+	public setHealth(String health){
+		this.health = health;
+	}
+	public getStatus(){
+		return status;
+	}
+	public List<String> getNotes() {
+		return notes;
 	}
 
 }
