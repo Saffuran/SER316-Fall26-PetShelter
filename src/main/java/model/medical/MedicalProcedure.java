@@ -1,9 +1,8 @@
-package mode.medical;
+package model.medical;
 
 import model.Animal;
 
-public abstract class MedicalProcedure {
+public interface MedicalProcedure {
 
-	public abstract void perform(Animal animal);
 	void perform(Animal animal);
 }

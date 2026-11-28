@@ -3,7 +3,7 @@ package model.medical;
 import model.Animal;
 
 
-public class DentalCleaning extends ProcedureDECORATOR {
+public class DentalCleaning extends ProcedureDecorator {
 
 	public DentalCleaning(MedicalProcedure wrapped) {
 		super(wrapped);

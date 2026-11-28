@@ -3,7 +3,7 @@ package model.medical;
 import model.Animal;
 
 
-public class Microchipping extends ProcedureDECORATOR {
+public class Microchipping extends ProcedureDecorator {
 
 	public Microchipping(MedicalProcedure wrapped) {
 	super(wrapped);

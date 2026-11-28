@@ -1,3 +1,9 @@
+package model.staff;
+
+import model.Adopter;
+import model.Animal;
+import model.matching.MatchHandler;
+
 public class AdoptionCoordinator extends Staff {
 
 	private MatchHandler matchChain;
