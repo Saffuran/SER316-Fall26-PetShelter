@@ -11,6 +11,9 @@ public class Veterinarian extends Staff {
 
 	public void treat(Animal animal, MedicalProcedure procedure) {
 		procedure.perform(animal);
+		if ("Healthy".equals(animal.getHealth())) {
+			animal.setStatus("AVAILABLE");
+		}
 	}
 
 }
