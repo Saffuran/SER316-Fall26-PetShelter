@@ -1,6 +1,6 @@
-public abstract class Staff {
+package model.staff;
 
-	private String name;
+public abstract class Staff {
 
 	private final String name;
 

@@ -1,3 +1,6 @@
+package model;
+
+
 public class Adopter {
 
 	private String id;

@@ -1,4 +1,9 @@
+package model;
+
+import java.util.ArrayList;
 import java.util.List;
+
+import model.staff.Staff;
 
 public class Shelter {
 
@@ -17,7 +22,7 @@ public class Shelter {
 	}
 
 	public void addAdopter(Adopter adopter){
-		adopter.add(adopter);
+		adopters.add(adopter);
 	}
 
 	public List<Animal> getAnimals() {

@@ -1,22 +1,33 @@
+package model;
+
+import java.util.ArrayList;
 import java.util.List;
 
 public class Animal {
 
-	private String id;
+	private final String id;
 
-	private String species;
+	private final String species;
 
-	private int age;
+	private final int age;
 
 	private String health;
 
 	private String status;
 
-	private List<String> notes = new ArrayList<>();
+	private final List<String> notes = new ArrayList<>();
 
-	public void addNote(String note) {
-
+	public Animal(String id, String species, int age, String health, String status) {
+		this.id = id;
+		this.species = species;
+		this.age = age;
+		this.health = health;
+		this.status = status;
 	}
+
+	public void addNote(String note){ notes.add(note); }
+
+	public String getId() { return id; }
 
 	public String getSpecies() {
 		return species;
@@ -34,14 +45,9 @@ public class Animal {
 		return status;
 	}
 
-	public String setHealth(String health){
-		this.health = health;
-	}
-	public String getStatus(){
-		return status;
-	}
-	public List<String> getNotes() {
-		return notes;
-	}
+	public void setHealth(String health){ this.health = health; }
+
+	public void setStatus(String status){ this.status = status; }
+	public List<String> getNotes(){ return notes; }
 
 }
